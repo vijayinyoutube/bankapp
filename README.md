@@ -1,4 +1,4 @@
-# bankapp  💴
+# bankapp 🏦 💴
 
 A Bank Management app built using Flutter
 
