@@ -603,7 +603,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         padding: const EdgeInsets.all(8.0),
                         child: Container(
                           width: double.infinity,
-                          height: 150,
+                          //height: 150,
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(25),
                             color: Colors.lightBlue[100],
@@ -618,10 +618,10 @@ class _MyHomePageState extends State<MyHomePage> {
                                       MainAxisAlignment.spaceBetween,
                                   children: [
                                     Text(
-                                      "Income",
+                                      "Spending",
                                       style: GoogleFonts.aBeeZee(
                                         textStyle: TextStyle(
-                                            color: Colors.greenAccent[700],
+                                            color: Colors.orangeAccent[700],
                                             fontSize: 20,
                                             fontWeight: FontWeight.bold),
                                       ),
@@ -632,8 +632,8 @@ class _MyHomePageState extends State<MyHomePage> {
                                           begin: Alignment.topLeft,
                                           end: Alignment.bottomRight,
                                           colors: <Color>[
-                                            Colors.greenAccent[700],
-                                            Colors.greenAccent[400],
+                                            Colors.orangeAccent[700],
+                                            Colors.orangeAccent[400],
                                           ],
                                         ),
                                         borderRadius: BorderRadius.circular(25),
@@ -641,7 +641,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                       child: Padding(
                                         padding: const EdgeInsets.all(3.5),
                                         child: Text(
-                                          " \$ 10.5 ",
+                                          " \$ 50.25 ",
                                           style: GoogleFonts.aBeeZee(
                                             textStyle: TextStyle(
                                                 color: Colors.white,
@@ -662,12 +662,12 @@ class _MyHomePageState extends State<MyHomePage> {
                                   children: [
                                     ClipOval(
                                       child: Container(
-                                        color: Colors.greenAccent[700],
+                                        color: Colors.orangeAccent[700],
                                         width: 50,
                                         height: 50,
                                         child: Center(
                                           child: Text(
-                                            "AC",
+                                            "RH",
                                             style: GoogleFonts.aBeeZee(
                                               textStyle: TextStyle(
                                                   color: Colors.white,
@@ -684,7 +684,73 @@ class _MyHomePageState extends State<MyHomePage> {
                                           CrossAxisAlignment.end,
                                       children: [
                                         Text(
-                                          "Reversal Transaction",
+                                          "Online Shopping",
+                                          style: GoogleFonts.comfortaa(
+                                            textStyle: TextStyle(
+                                                color: Colors.blue[800],
+                                                fontSize: 20,
+                                                fontWeight: FontWeight.bold),
+                                          ),
+                                        ),
+                                        Padding(
+                                          padding: const EdgeInsets.all(5.5),
+                                          child: Row(
+                                            children: [
+                                              Text(
+                                                "See more",
+                                                style: TextStyle(
+                                                    color: Colors.blue[800],
+                                                    fontSize: 17.5,
+                                                    fontWeight:
+                                                        FontWeight.normal),
+                                              ),
+                                              Icon(
+                                                Icons.navigate_next,
+                                                color: Colors.blue[800],
+                                              ),
+                                            ],
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ],
+                                ),
+                                SizedBox(
+                                  height: 10,
+                                ),
+                                Divider(),
+                                SizedBox(
+                                  height: 10,
+                                ),
+                                Row(
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    ClipOval(
+                                      child: Container(
+                                        color: Colors.blueAccent[700],
+                                        width: 50,
+                                        height: 50,
+                                        child: Center(
+                                          child: Text(
+                                            "DH",
+                                            style: GoogleFonts.aBeeZee(
+                                              textStyle: TextStyle(
+                                                  color: Colors.white,
+                                                  fontSize: 25,
+                                                  fontWeight:
+                                                      FontWeight.normal),
+                                            ),
+                                          ),
+                                        ),
+                                      ),
+                                    ),
+                                    Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.end,
+                                      children: [
+                                        Text(
+                                          "Bill Payment",
                                           style: GoogleFonts.comfortaa(
                                             textStyle: TextStyle(
                                                 color: Colors.blue[800],
