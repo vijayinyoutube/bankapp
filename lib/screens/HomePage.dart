@@ -489,7 +489,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget expenseDetails() {
     return SingleChildScrollView(
       child: Container(
-        height: (MediaQuery.of(context).size.height) / 3.5,
+        height: (MediaQuery.of(context).size.height) / 2.5,
         child: Expanded(
           child: ListView(
             children: [
