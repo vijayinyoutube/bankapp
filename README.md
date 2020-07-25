@@ -1,6 +1,7 @@
 # bankapp 🏦 💴 
 
 [![BUILD](https://img.shields.io/badge/Build-OK-<COLOR>.svg)](https://github.com/vijayinyoutube/bankapp)  [![MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/vijayinyoutube/bankapp) [![vijaycreations](https://img.shields.io/website-up-vijaycreations-green-red/http/cv.lbesson.qc.to.svg)](https://www.youtube.com/channel/UCBC_Z7jla1GSITcqLKAtPxQ) [![Status](https://img.shields.io/badge/Status-Beginner-<COLOR>.svg)](https://github.com/vijayinyoutube/bankapp)
+
 A Bank Management app built using Flutter
 
 ## Flutter
