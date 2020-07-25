@@ -5,6 +5,12 @@ A Bank Management app built using Flutter
 ## Flutter
 [Flutter](https://flutter.dev/) is a crossplatfrom UI tool kit that helps in developing native Android and iOS app from a single code base.
 
+## App
+
+<img src="https://user-images.githubusercontent.com/58719230/88457200-188ae100-cea2-11ea-86c4-e7db0808591d.png">   <img src="https://user-images.githubusercontent.com/58719230/88457199-16288700-cea2-11ea-8595-4af8d1582d9e.png">
+
+
+
 ## License
 ```
 
