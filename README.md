@@ -9,6 +9,13 @@ A Bank Management app built using Flutter
 
 ## App
 
+Check out the video tutorial for this app
+
+>Part-1: https://youtu.be/Y0urnDORtBk  
+
+>Part-2: https://youtu.be/_1GKHoXR7LE  
+
+
 <img src="https://user-images.githubusercontent.com/58719230/88457200-188ae100-cea2-11ea-86c4-e7db0808591d.png" width="300" height="450">   <img src="https://user-images.githubusercontent.com/58719230/88457199-16288700-cea2-11ea-8595-4af8d1582d9e.png" width="300" height="450">
 
 
